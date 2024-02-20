@@ -1,0 +1,31 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: slategray;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pokecard {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 10px;
+    text-align: center;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+.pokemonName{
+    color: blue;
+}
+
+.pokemonType{
+    font-weight: bold;
+}
