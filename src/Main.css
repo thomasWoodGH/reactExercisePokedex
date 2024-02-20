@@ -1,31 +1,49 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+    color: rgb(212, 212, 212);
 }
 
 h1{
     text-align: center;
-    color: slategray;
+    color: rgb(211, 87, 87);
+    font-size: 48px;
+}
+
+img{
+    width: 150px;
 }
 
 ul{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-inline-start: 0px;
 }
+
 
 .pokecard {
     width: 200px;
     padding: 10px;
     margin: 10px 10px;
     text-align: center;
-    background-color: lightgrey;
+    background-color: rgb(162, 105, 105);
+    border: 2px solid rgb(112, 54, 54);
     border-radius: 10px;
 }
 
 .pokemonName{
-    color: blue;
+    color: rgb(212, 212, 212);
 }
 
 .pokemonType{
     font-weight: bold;
+    color: rgb(223, 223, 223);
+}
+
+.searching{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 24px;
 }
